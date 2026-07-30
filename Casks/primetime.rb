@@ -15,8 +15,7 @@ cask "primetime" do
   end
 
   auto_updates true # Sparkle
-
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "PrimeTime.app"
