@@ -19,6 +19,10 @@ cask "primetime" do
   depends_on arch: :arm64
 
   app "PrimeTime.app"
+  # The scriptable CLI rides inside the app bundle (see PrimeTime's
+  # scripts/bundle-app.sh); Sparkle updates the app in place, so the
+  # symlink survives auto-updates.
+  binary "#{appdir}/PrimeTime.app/Contents/Helpers/primetime"
 
   zap trash: [
     "~/Library/Application Support/PrimeTime",
