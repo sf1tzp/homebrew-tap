@@ -1,6 +1,6 @@
 cask "primetime" do
-  version "0.5.0"
-  sha256 "8343eb1c8f1eba98697f74da9a0c93bc5da9c114b25175e316644df213405345"
+  version "0.5.1"
+  sha256 "05e11d9793faed8276376a842ed7169854049ac91f6e7a83cd4fba923a50fe71"
 
   url "https://github.com/sf1tzp/PrimeTime/releases/download/v#{version}/PrimeTime-#{version}.zip"
   name "PrimeTime"
