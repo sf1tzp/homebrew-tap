@@ -15,8 +15,9 @@ cask "primetime" do
   end
 
   auto_updates true # Sparkle
+  # Universal (arm64+x86_64) since 0.6.0; :sonoma keeps the macOS 14 floor
+  # on Intel too (2018-or-later hardware).
   depends_on macos: :sonoma
-  depends_on arch: :arm64
 
   app "PrimeTime.app"
   # The scriptable CLI rides inside the app bundle (see PrimeTime's
