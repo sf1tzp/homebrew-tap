@@ -1,6 +1,6 @@
 cask "moment-tally" do
-  version "1.2.1"
-  sha256 "52522283eee17fbc2f43f505409abfef45ac7ac2987fbf6787ad54e5ac3047b7"
+  version "1.2.2"
+  sha256 "ce5025a60838fed4ff78e88222a4ed1910f4327cf203c774ca5b5e88b742ec8d"
 
   url "https://github.com/sf1tzp/moment-tally/releases/download/v#{version}/MomentTally-#{version}.zip"
   name "Moment Tally"
